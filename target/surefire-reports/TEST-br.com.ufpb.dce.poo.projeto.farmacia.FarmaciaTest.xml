@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0" errors="0" skipped="0" tests="39" name="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.7.0_17\jre\bin"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="c:\Users\Rivanildo Silva\workspace\farmacia"/>
+    <property name="java.runtime.version" value="1.7.0_17-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.7.0_17\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\RIVANI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="classworlds.conf" value="c:/apache-maven-3.2.1/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.7.0_17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\Rivanildo Silva\bin;.;C:\Program Files (x86)\Git\local\bin;C:\Program Files (x86)\Git\mingw\bin;C:\Program Files (x86)\Git\bin;c:\Program Files (x86)\HP SimplePass\;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;c:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;c:\Program Files\Java\jdk1.7.0_17\bin;c:\Program Files (x86)\Hewlett-Packard\HP SimplePass Identity Protection\x64;c:\Python33;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;c:\Program Files (x86)\Calibre2\;c:\apache-maven-3.2.1\bin;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\Rivanildo Silva"/>
+    <property name="user.timezone" value="GMT-03:00"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Rivanildo Silva"/>
+    <property name="java.class.path" value="c:/apache-maven-3.2.1/boot/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="c:\Program Files\Java\jdk1.7.0_17\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_17"/>
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.7.0_17\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.7.0_17\jre\lib\resources.jar;c:\Program Files\Java\jdk1.7.0_17\jre\lib\rt.jar;c:\Program Files\Java\jdk1.7.0_17\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.7.0_17\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.7.0_17\jre\lib\jce.jar;c:\Program Files\Java\jdk1.7.0_17\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.7.0_17\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.7.0_17\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="c:\apache-maven-3.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="verificaSeAFarmaciaFoiCriada"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastraDoisProdutos"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="pesquisarProdutoPeloNomeTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastrarProdutoSemNomeTest2"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="alterarNomeTest2"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastraUmProduto"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="alterarPrecoTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="pesquisarClienteJuridicoTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="removeClienteTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="buscarProdutosPeloPrecoTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="alterarPrecoTest2"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastrarProdutoSemNomeTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="alterarProdutoTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastrarClienteFisicoTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="pesquisarClienteFisicoTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="buscarProdutosPeloPrecoTest2"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="pesquisaClienteTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastrarClienteJuridicoTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="removeClienteInexistenteTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="removeClienteTest2"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="alterarNomeTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="verificaSeEstaVazia"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="verificaSeUmProdutoFoiRemovidoTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastrarUmProdutoQueJaExiste"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="removerProdutoInexistenteTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastrarProdutoComNomeJaExistente"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="pesquisarProdutoInexistentePeloCodigoTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="pesquisarProdutoInexistenteTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="verificaQuantidadeEmEstoqueTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="adicionarQuantidadeDeUmProdutoNoEstoqueTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="pesquisarProdutoInexistentePeloNomeTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastraProdutoQuantidadeNegativaTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastraClienteFisicoComMesmoIdTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="pesquisarClienteNaoCadastradoTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastraProdutoComPrecoNegativo"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="verificaSeUmProdutoFoiCadastrato"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastraProdutoComPrecoIgualAZero"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="cadastraClienteJuridicoComMesmoIdTest"/>
+  <testcase time="0" classname="br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest" name="pesquisarProdutoPeloCodigoTest"/>
+</testsuite>

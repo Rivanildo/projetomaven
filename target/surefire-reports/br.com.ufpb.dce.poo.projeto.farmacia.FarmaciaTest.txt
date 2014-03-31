@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.ufpb.dce.poo.projeto.farmacia.FarmaciaTest
+-------------------------------------------------------------------------------
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 sec
